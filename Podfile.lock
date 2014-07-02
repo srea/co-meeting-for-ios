@@ -1,0 +1,113 @@
+PODS:
+  - AFNetworking (2.3.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.3.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.3.1)
+  - AFNetworking/Security (2.3.1)
+  - AFNetworking/Serialization (2.3.1)
+  - AFNetworking/UIKit (2.3.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BlocksKit (2.2.3):
+    - BlocksKit/All
+  - BlocksKit/All (2.2.3):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.3)
+  - BlocksKit/DynamicDelegate (2.2.3)
+  - BlocksKit/MessageUI (2.2.3):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.3):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Bolts (1.1.0)
+  - CrittercismSDK (4.3.3)
+  - CTFeedback (1.0.10)
+  - CWStatusBarNotification (2.1.1)
+  - Facebook-iOS-SDK (3.15.1):
+    - Bolts
+  - FontAwesomeKit (2.1.7):
+    - FontAwesomeKit/Core
+    - FontAwesomeKit/FontAwesome
+    - FontAwesomeKit/FoundationIcons
+    - FontAwesomeKit/IonIcons
+    - FontAwesomeKit/Zocial
+  - FontAwesomeKit/Core (2.1.7)
+  - FontAwesomeKit/FontAwesome (2.1.7):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.1.7):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.1.7):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.1.7):
+    - FontAwesomeKit/Core
+  - GoogleAnalytics-iOS-SDK (3.0.7)
+  - JSONModel (0.13.0)
+  - NJKWebViewProgress (0.2.3):
+    - NJKWebViewProgress/Core
+    - NJKWebViewProgress/ProgressView
+  - NJKWebViewProgress/Core (0.2.3)
+  - NJKWebViewProgress/ProgressView (0.2.3)
+  - NSDate+TimeAgo (1.0.3)
+  - NSDateMinimalTimeAgo (0.1.0)
+  - NXOAuth2Client (1.2.6)
+  - Parse (1.2.19):
+    - Facebook-iOS-SDK (~> 3.11)
+  - PBWebViewController (0.2)
+  - StaticDataTableViewController (2.0.3)
+  - WSCoachMarksView (0.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.3.1)
+  - BlocksKit (~> 2.2.3)
+  - CrittercismSDK (~> 4.3.3)
+  - CTFeedback (~> 1.0.10)
+  - CWStatusBarNotification (~> 2.1.1)
+  - FontAwesomeKit (~> 2.1.6)
+  - GoogleAnalytics-iOS-SDK (~> 3.0.7)
+  - JSONModel (~> 0.13.0)
+  - NJKWebViewProgress (~> 0.2.3)
+  - NSDate+TimeAgo (~> 1.0.3)
+  - NSDateMinimalTimeAgo (~> 0.1.0)
+  - NXOAuth2Client (~> 1.2.6)
+  - Parse (~> 1.2.19)
+  - PBWebViewController (~> 0.2)
+  - StaticDataTableViewController (~> 2.0.3)
+  - WSCoachMarksView
+
+SPEC CHECKSUMS:
+  AFNetworking: 6d7b76aa5d04c8c37daad3eef4b7e3f2a7620da3
+  BlocksKit: 07c8a80f04275efac6a5f8b973782489c083a182
+  Bolts: 91c2af8eae1d44e1dd75946a5b0ae04a43ea43e4
+  CrittercismSDK: 9f19db3a1f0c16b35d8c29c69406852d184a7650
+  CTFeedback: b17fce906e474d1e1ee286adc06a827efebddf07
+  CWStatusBarNotification: 90989a73615aceb90c2da393d926ab76d8ea6a6d
+  Facebook-iOS-SDK: 56214af8e0ef16e751eb2804250326b709e571b8
+  FontAwesomeKit: af6eef70d23986349284d2feb4e959459621587d
+  GoogleAnalytics-iOS-SDK: bb285d8eef15a682f1b82971becd0d22edd0e53b
+  JSONModel: 62ea96b49ea18a8b91ef89c249dba291d8601d82
+  NJKWebViewProgress: 721b57080c840c76f70ff6c2dda4f836ee1b27c1
+  NSDate+TimeAgo: f3533e0198fab05b716368b19f8c2185d53d6f3b
+  NSDateMinimalTimeAgo: 11f443d88edcfc2af23309b2641fd063c3d3a125
+  NXOAuth2Client: f9a3efde1cce92c92fd1518070caf305bd363ef4
+  Parse: ffebaecaddd32cb52671010f81567c298ff93d04
+  PBWebViewController: 4ce33129c0f0adfce9cec105be4d48c7c9b70026
+  StaticDataTableViewController: 171ee35f17f6176baa98ce05c1e4769a628732ad
+  WSCoachMarksView: 77046a7df4ec38acb81edfacc717e5275f97a363
+
+COCOAPODS: 0.32.1

@@ -1,0 +1,45 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#define RGB(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+//#define NSLog(s,...)
+
+// Parse
+#define PARSE_APPLICATION_ID @"PARSE_APPLICATION_ID"
+#define PARSE_CLIENT_ID @"PARSE_CLIENT_ID"
+#define PARSE_REST_API_KEY @"PARSE_REST_API_KEY"
+#define PARSE_MASTER_KEY @"PARSE_MASTER_KEY"
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    // Library
+    #import <NXOAuth2.h>
+    #import <AFNetworking.h>
+    #import <JSONModel.h>
+    #import <BlocksKit+UIKit.h>
+    #import <FAKFontAwesome.h>
+    #import "WSCoachMarksView.h"
+
+    // Models
+    #import "BaseModel.h"
+    #import "User.h"
+    #import "Group.h"
+    #import "Member.h"
+    #import "MessageCreate.h"
+    #import "NetworkPublic.h"
+    #import "COService.h"
+    #import "myAccount.h"
+#endif
